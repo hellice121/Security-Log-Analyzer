@@ -14,11 +14,13 @@ def main():
                 print(f"ip : {obj.ip}")
                 print(f"total attempts : {obj.t_attempts}")
                 print(f"failed attempts : {obj.failed_attempts}\n\n")
+                print(f"risk score : {obj.risk}")
 
             if obj.reconnaissance:
                 print("reconnaissance detected")
                 print(f"ip : {obj.ip}")
                 print(f"resources accessed : \n{obj.suspicious_resources}")
+                print(f"risk score : {obj.risk}")
 
 
 if "__name__" == "__main__":
