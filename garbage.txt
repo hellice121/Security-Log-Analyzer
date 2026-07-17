@@ -1,0 +1,1 @@
+[log.ip,log.user_name,log.auth_user_name,log.time,log.method,log.resource,log.version,log.status_code,log.response_size]
