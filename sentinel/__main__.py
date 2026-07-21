@@ -1,7 +1,7 @@
-from parser import data_retrieval,file_checker
-from detection import Brute_Force,Recon,method_abuse
-from models import Request,IP
-from ui import display_banner,get_log_path,display_security_alert,display_log_summary
+from .parser import data_retrieval,file_checker
+from .detection import Brute_Force,Recon,method_abuse
+from .models import Request,IP
+from .ui import display_banner,get_log_path,display_security_alert,display_log_summary
 def main():
 
     display_banner()

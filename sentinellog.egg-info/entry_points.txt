@@ -1,0 +1,2 @@
+[console_scripts]
+sentinellog = sentinel.__main__:main

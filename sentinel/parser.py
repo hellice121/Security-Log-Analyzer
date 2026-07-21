@@ -1,4 +1,4 @@
-from models import Request,IP
+from .models import Request,IP
 from pathlib import Path as p
 
 

@@ -1,4 +1,4 @@
-from parser import data_retrieval
+from .parser import data_retrieval
 
 
 
