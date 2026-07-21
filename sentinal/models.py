@@ -8,7 +8,7 @@ class Request:
 
         self.time = " ".join([data[3], data[4]])
 
-        self.method = data[5]
+        self.method = data[5].strip('"').strip("'").strip(" ")
         self.resource = data[6]
         self.version = data[7]
 
@@ -23,8 +23,11 @@ class IP:
         self.failed_attempts = 0
         self.not_found = 0 
         self.flagged = False
+        self.detection = []
         self.brute_force = False
         self.reconnaissance = False
         self.suspicious_resources = {}
+        self.method_abuse = False
+        self.suspicious_methods = {}
         self.risk = 0
 
