@@ -1,9 +1,0 @@
-Metadata-Version: 2.4
-Name: sentinellog
-Version: 1.0.0
-Summary: Security Log Analysis and Detection Tool
-Requires-Python: >=3.10
-Description-Content-Type: text/markdown
-Requires-Dist: rich
-
-# Security-Log-Analyzer
